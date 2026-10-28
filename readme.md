@@ -10,15 +10,15 @@ In this report, we:
  6. Fetch solar data from the NLR PVWatts API for the same location
  7. Plot a heat map of the solar power output
 
-Everything is detailed and collated in the PDF report.
+Everything is detailed and collated in the [PDF report](./report.pdf).
 
 ***
 
 ## Directions
 If downloading the code and running it, please do the following:
  1. Create a .env file in the same directory with the following content:
-    1. NLR_API_KEY=YOUR_API_KEY_HERE
-    2. NLR_EMAIL=YOUR_EMAIL_HERE
+    1. `NLR_API_KEY=YOUR_API_KEY_HERE`
+    2. `NLR_EMAIL=YOUR_EMAIL_HERE`
  2. Install the required packages (if not already installed):
     `pip install numpy pandas matplotlib seaborn requests python-dotenv`
  3. Run the script:
