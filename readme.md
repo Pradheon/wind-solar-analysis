@@ -49,8 +49,9 @@ For the Python script to work, you must have the following installed, and can be
 
 You must also have an API key from NRL as detailed in the "Requirements" section above to run the code.
 
-*We have neither tested nor verified the usage of Python 3.10-3.13, so use them at your own risk.*
-*We highly encourage utilizing a Python virtual environment in your IDE of choice (we use VSC) to avoid issues with PATH or interpreter conflicts.*
+*Note:*
+- *We have neither tested nor verified the usage of Python 3.10-3.13, so use them at your own risk.*
+- *We highly encourage utilizing a Python virtual environment in your IDE of choice (we use VSC) to avoid issues with PATH or interpreter conflicts.*
 
 ***
 
