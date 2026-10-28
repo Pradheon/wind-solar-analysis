@@ -1,0 +1,41 @@
+# ==========================
+# 🔐 Secrets & Environment
+# ==========================
+.env
+*.env
+
+# ==========================
+# 🐍 Python
+# ==========================
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================
+# 📝 LaTeX Build Artifacts
+# ==========================
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+
+# ==========================
+# 📊 Generated Data & Outputs
+# ==========================
+# If you don't want to upload the generated images or raw API data:
+# *.csv
+# *.png
+*.tex
+
+# ==========================
+# 🍏 macOS System Files
+# ==========================
+.DS_Store
