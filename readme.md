@@ -16,23 +16,46 @@ Everything is detailed and collated in the [PDF report](./report.pdf).
 
 ## Directions
 If downloading the code and running it, please do the following:
- 1. Create a .env file in the same directory with the following content:
+ 1. Create a `.env` file in the same directory with the following content:
     1. `NLR_API_KEY=YOUR_API_KEY_HERE`
     2. `NLR_EMAIL=YOUR_EMAIL_HERE`
  2. Install the required packages (if not already installed):
     ```
-    pip install numpy pandas matplotlib seaborn requests python-dotenv
+    pip3 install numpy pandas matplotlib seaborn requests python-dotenv
     ```
  3. Run the script:
     ```
     python3 main.py
     ```
 
+### Requirements
  Please also note, we are using the NLR WIND Toolkit and PVWatts API, which require an API key and email for access. 
  You can obtain these by registering at [NRL Developer Network](https://developer.nlr.gov/).
 
- We are also using a Python virtual environment to manage dependencies. 
+ We are also using a Python virtual environment (`.venv`) to manage dependencies. 
  If you are not familiar with this, please refer to the Python documentation on [virtual environments](https://docs.python.org/3/library/venv.html).
+
+ Please see the "Dependencies, Libraries, and Packages" section below regarding additional requirements.
+
+### Dependencies, Libraries, and Packages
+For the Python script to work, you must have the following installed, and can be installed via the `pip3` command:
+ - python3.14
+ - numpy
+ - pandas
+ - matplotlib
+ - seaborn
+ - requests
+ - python-dotenv
+
+You must also have an API key from NRL as detailed in the "Requirements" section above to run the code.
+
+*We have neither tested nor verified the usage of Python 3.10-3.13, so use them at your own risk.*
+*We highly encourage utilizing a Python virtual environment in your IDE of choice (we use VSC) to avoid issues with PATH or interpreter conflicts.*
+
+***
+
+## Additional Comments
+ We use LaTeX to generate the [PDF report](./report.pdf), using [TeX Live](https://www.tug.org/texlive/).
 
 ***
 
