@@ -20,9 +20,13 @@ If downloading the code and running it, please do the following:
     1. `NLR_API_KEY=YOUR_API_KEY_HERE`
     2. `NLR_EMAIL=YOUR_EMAIL_HERE`
  2. Install the required packages (if not already installed):
-    ```pip install numpy pandas matplotlib seaborn requests python-dotenv```
+    ```
+    pip install numpy pandas matplotlib seaborn requests python-dotenv
+    ```
  3. Run the script:
-    ```python3 main.py```
+    ```
+    python3 main.py
+    ```
 
  Please also note, we are using the NLR WIND Toolkit and PVWatts API, which require an API key and email for access. 
  You can obtain these by registering at [NRL Developer Network](https://developer.nlr.gov/).
